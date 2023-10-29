@@ -11,6 +11,8 @@ This project is an demo for the image blackboard. `web-client` is project for th
 
 ## Get Start
 
+### Backend
+
 For Back-end developement, run the bash as:
 
 ```shell
@@ -21,6 +23,10 @@ npx prisma init
 npx prisma migrate dev --name init
 ```
 
+and then visit `http://localhost:8000/api` to test api.
+
+### Frontend
+
 For Front-end development, run the bash as:
 
 ```shell
@@ -28,3 +34,5 @@ cd web-client
 npm i
 npm start
 ```
+
+and then open `http://localhost:3000/` in the browser.
