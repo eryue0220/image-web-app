@@ -1,0 +1,35 @@
+.page {
+  width: 1304px;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggle-mask,
+.upload,
+.save,
+.download {
+  height: 20px;
+  margin: 15px;
+  padding: 6px;
+  background-color: #1677ff;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.save {
+  width: 45px;
+}
+
+.download {
+  width: 75px;
+}
+
+.toggle-mask {
+  width: 90px;
+}

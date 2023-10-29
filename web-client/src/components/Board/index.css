@@ -1,0 +1,21 @@
+.board {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  width: 1280px;
+  height: 720px;
+  border: 10px solid #ccc;
+}
+
+.draw-cursor {
+  cursor: url(./draw.png) 4 4, auto;
+}
+
+.image,
+.paint {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
